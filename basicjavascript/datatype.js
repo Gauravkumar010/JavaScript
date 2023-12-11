@@ -58,5 +58,28 @@ const myfunction=function(){
 }
 
 
-console.log(typeof myfunction)
+// console.log(typeof myfunction)
 
+
+
+//Stack (primitive)  Heap(Non-primitive)
+
+
+let myname = "Gaurav";
+let anothername = myname
+anothername="Gaurav kumar"
+
+// console.log(myname)
+// console.log(anothername)
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.email="gaurav@gmail.com"
+
+console.log(userTwo.email)
+console.log(userOne.email)
